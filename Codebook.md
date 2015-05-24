@@ -2,8 +2,7 @@
 
 ##Input Dataset
 The input dataset is not described here. This information is available elsewhere.  
-A full description of the input dataset details are available [here](
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+For a full description see [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ##Notes on creating the output
 
@@ -11,14 +10,14 @@ Looked at the raw loaded data using dim() to confirm that the train and test
 datasets are compatible ito combining them into single datasets.
 
 Label and Subject files match up nicely. dim() results:
- test_labels       = 2947 / 1
- test_subjects     = 2947 / 1
- train_labels      = 7532 / 1
- train_subjects    = 7532 / 1
+- test_labels       = 2947 / 1
+- test_subjects     = 2947 / 1
+- train_labels      = 7532 / 1
+- train_subjects    = 7532 / 1
 
 Dataset files also match up. dim() results:
- test_data         = 2947 / 561
- train_data        = 7532 / 561
+- test_data         = 2947 / 561
+- train_data        = 7532 / 561
 
 Dataset column count also matches the number of features in features.txt
 
